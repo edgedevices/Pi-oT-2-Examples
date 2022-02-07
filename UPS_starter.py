@@ -19,7 +19,9 @@ def power_detect():
                         print("Power Resumed")
         
         GPIO.remove_event_detect(25)
-        sleep(.5)
+        sleep(0.5)
         GPIO.add_event_detect(25,GPIO.BOTH,callback= power_detect, bouncetime=200)
 
-power_detect():
+while True:
+        power_detect():
+        sleep(1)
