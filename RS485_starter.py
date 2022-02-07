@@ -10,5 +10,6 @@ while True:
         temp = ins.read_register(0,1)
         RH = ins.read_register(1,1)
         print(temp,RH)
+        sleep(1)
     except IOError:
         print("Failed to read from instrument")
