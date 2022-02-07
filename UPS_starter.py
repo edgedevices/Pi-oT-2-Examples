@@ -23,5 +23,5 @@ def power_detect():
         GPIO.add_event_detect(25,GPIO.BOTH,callback= power_detect, bouncetime=200)
 
 while True:
-        power_detect():
+        power_detect()
         sleep(1)
