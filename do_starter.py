@@ -15,23 +15,23 @@ while True:
     GPIO.output(13, True)
     sleep(1)
     GPIO.output(13, False)
-    
+
     GPIO.output(19, True)
     sleep(1)
     GPIO.output(19, False)
-    
+
     GPIO.output(26, True)
     sleep(1)
     GPIO.output(26, False)
-        
+
     GPIO.output(21, True)
     sleep(1)
     GPIO.output(21, False)
-    
+
     GPIO.output(20, True)
     sleep(1)
     GPIO.output(20, False)
-    
+
     GPIO.output(16, True)
     sleep(1)
     GPIO.output(16, False)
