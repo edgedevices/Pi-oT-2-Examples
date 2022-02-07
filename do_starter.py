@@ -3,12 +3,12 @@ from time import sleep
 GPIO.setwarnings(False)
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(26, GPIO.OUT)
-GPIO.setup(19, GPIO.OUT)
 GPIO.setup(13, GPIO.OUT)
-GPIO.setup(21, GPIO.OUT)
-GPIO.setup(20, GPIO.OUT)
 GPIO.setup(16, GPIO.OUT)
+GPIO.setup(19, GPIO.OUT)
+GPIO.setup(20, GPIO.OUT)
+GPIO.setup(21, GPIO.OUT)
+GPIO.setup(26, GPIO.OUT)
 
 while True:
     GPIO.output(26, True)
